@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/nitrous/code/labs/method_practice/my_methods.rb @ line 32 :
+
+    [1;34m27[0m: puts [31m[1;31m"[0m[31mwould you like me to multiply those numbers? Please answer yes or no[1;31m"[0m[31m[0m
+    [1;34m28[0m: answer = gets
+    [1;34m29[0m: 
+    [1;34m30[0m: ![1;34m#------conditional[0m
+    [1;34m31[0m: puts answer
+ => [1;34m32[0m: binding.pry
+    [1;34m33[0m: [32mif[0m answer == [31m[1;31m"[0m[31myes[1;31m"[0m[31m[0m
+    [1;34m34[0m:   puts multiplication(num1, num2, num3) 
+    [1;34m35[0m: [32melsif[0m answer == [31m[1;31m"[0m[31mno[1;31m"[0m[31m[0m
+    [1;34m36[0m:   puts [31m[1;31m"[0m[31malrighty! bye then![1;31m"[0m[31m[0m
+    [1;34m37[0m: [32mend[0m
+
